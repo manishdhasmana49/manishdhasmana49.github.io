@@ -10133,3 +10133,90 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* ============================================================
+   Professional theme overrides (navy accent, matches CV)
+   ============================================================ */
+:root {
+  --primary: #0a4a72;
+  --orange: #0a4a72;
+}
+
+/* Links */
+a {
+  color: #0a4a72;
+}
+a:hover {
+  color: #063456;
+}
+
+/* Sidebar / navbar accent */
+.bg-primary {
+  background-color: #0a4a72 !important;
+}
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: #073a5b !important;
+}
+
+/* Primary text (name accent, dates, section icons) */
+.text-primary {
+  color: #0a4a72 !important;
+}
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #063456 !important;
+}
+
+/* Navbar links */
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+#sideNav .navbar-nav .nav-item .nav-link:hover,
+#sideNav .navbar-nav .nav-item .nav-link:focus {
+  color: #ffffff;
+}
+
+/* Social icons */
+.social-icons .social-icon {
+  background-color: #34495e;
+}
+.social-icons .social-icon:hover {
+  background-color: #0a4a72;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0a4a72;
+  border-color: #0a4a72;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #073a5b !important;
+  border-color: #073a5b !important;
+}
+
+/* Profile image polish */
+.img-profile {
+  border: 4px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
+}
+
+/* Headings and dividers */
+section.resume-section h2,
+section.resume-section h3 {
+  color: #1f2d3d;
+}
+.resume-section-content hr,
+hr.m-0 {
+  border-top-color: rgba(0, 0, 0, 0.08);
+}
+
+/* Subheadings */
+.subheading {
+  color: #52606d;
+}
